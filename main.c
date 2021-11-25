@@ -5,8 +5,7 @@ void main(){
     int menu;
     char ans;
 
-do{
-        system("cls");
+
     printf("TR DDP : \n");
     printf("1. Rumah Pola \n");
     printf("2. Toko Warisan FTI \n");
@@ -14,10 +13,11 @@ do{
     printf("4. Author \n");
     printf("5. Exit \n");
     printf("Pilihan : ");
-
+    //tes commit
     scanf("%d", &menu);
     /*switch(menu)
     {
         case 1: system("cls")
     }*/
+
 }
