@@ -13,7 +13,7 @@ void main(){
     printf("4. Author \n");
     printf("5. Exit \n");
     printf("Pilihan : ");
-    //tes commit
+    //tes commit kedua
     scanf("%d", &menu);
     /*switch(menu)
     {
