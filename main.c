@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <stdio.h>
+void rumahPola();
+void tokoWarisanFTI();
+void bendera();
+void author();
+void exitt();
 
 void main(){
     int menu;
-    char ans;
 
-do{
-        system("cls");
+    system("cls");
     printf("TR DDP : \n");
     printf("1. Rumah Pola \n");
     printf("2. Toko Warisan FTI \n");
@@ -20,16 +22,44 @@ do{
     scanf("%d", &menu);
     switch(menu)
     {
-        case 1: system("cls") ; polarumah(); break;
-        case 2: system("cls") ; tokofti(); break;
-        case 3: system("cls") ; bendera(); break;
-        case 4: system("cls") ; author(); break;
-        case 5: system("cls") ; exittt(); break;
-        default: printf("Pilihan Salah Enter untuk mengulang\n") ;getch();system("cls"); break;
+        case 1:
+            system("cls");
+            rumahPola();
+            break;
+        case 2:
+            system("cls");
+            tokoWarisanFTI();
+            break;
+        case 3:
+            system("cls");
+            bendera();
+            break;
+        case 4:
+            system("cls");
+            author();
+            break;
+        case 5:
+            system("cls");
+            exitt();
+            break;
+        default:
+            printf("\nPilihan salah, enter untuk mengulang");
+            getch();
+            main();
+            break;
     }
 }
+
+void rumahPola(){
+    printf("haloo ini rumah pola");
+}
+
+void tokoWarisanFTI(){
+    printf("haloo ini rumah pola");
+}
+
 void bendera(){
-        int input, c, l=1, z=1, q=1;
+    int input, c, l=1, z=1, q=1;
 
     printf("Tuliskan ukuran bendera : ");
     scanf("%d", &input);
@@ -103,6 +133,11 @@ void bendera(){
             }
         }
     }
+
+void author(){
+    printf("haloo ini rumah pola");
 }
-    while(menu == 1);
-    return 0;
+
+void exitt(){
+    printf("haloo ini rumah pola");
+}
