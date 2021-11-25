@@ -133,7 +133,7 @@ void bendera(){
             }
         }
     }
-
+}
 void author(){
     printf("haloo ini rumah pola");
 }
