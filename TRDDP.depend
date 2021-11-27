@@ -1,5 +1,6 @@
 # depslib dependency file v1.0
-1637820142 source:d:\yoren's private file\kuliah\semester 1\dasar pemrograman b\tr\tr-ddp\main.c
+1637997902 source:d:\yoren's private file\kuliah\semester 1\dasar pemrograman b\tr\tr-ddp\main.c
 	<stdio.h>
 	<stdlib.h>
+	<windows.h>
 
